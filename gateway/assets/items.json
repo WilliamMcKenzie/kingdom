@@ -1763,11 +1763,218 @@
           "sprite": {
             "w": 15,
             "h": 7,
-            "x": 136,
+            "x": 135,
             "y": 136
           }
         }
       ]
     }
-  }
+  },
+  {
+    "id": 34,
+    "display": "Dune Hood",
+    "description": "",
+    "type": "head",
+    "stats": {
+      "health": 0.9,
+      "damage": 1.5,
+      "regen": 2
+    },
+    "sprite": {
+      "w": 10,
+      "h": 10,
+      "x": 150.5,
+      "y": 142.5
+    },
+    "hand": {
+      "type": "container",
+      "label": "hand",
+      "angle": 22.5,
+      "scale": 0.8,
+      "children": [
+        {
+          "label": "dune_hood_hand",
+          "x": 2,
+          "y": -10,
+          "sprite": {
+            "w": 10,
+            "h": 10,
+            "x": 150.5,
+            "y": 142.5
+          }
+        }
+      ]
+    },
+    "equipped": {
+      "type": "container",
+      "label": "head",
+      "children": [
+        {
+          "label": "dune_hood_head",
+          "x": -4.5,
+          "y": -4.5,
+          "sprite": {
+            "w": 9,
+            "h": 9,
+            "x": 153,
+            "y": 126
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": 35,
+    "display": "Jungle Hide",
+    "description": "",
+    "type": "body",
+    "stats": {
+      "health": 1.1,
+      "speed": 1.3,
+      "reload": 1.5
+    },
+    "sprite": {
+      "w": 10,
+      "h": 10,
+      "x": 150,
+      "y": 154
+    },
+    "hand": {
+      "type": "container",
+      "label": "hand",
+      "angle": 22.5,
+      "scale": 0.8,
+      "children": [
+        {
+          "label": "jungle_hide_hand",
+          "x": 2,
+          "y": -10,
+          "sprite": {
+            "w": 10,
+            "h": 10,
+            "x": 150,
+            "y": 154
+          }
+        }
+      ]
+    },
+    "equipped": {
+      "type": "container",
+      "label": "body",
+      "children": [
+        {
+          "label": "jungle_hide_body",
+          "x": -7.5,
+          "y": -3.5,
+          "angle": 0,
+          "scale": 1,
+          "sprite": {
+            "w": 15,
+            "h": 7,
+            "x": 150,
+            "y": 136
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": 36,
+    "display": "Warmongers Helmet",
+    "description": "",
+    "type": "head",
+    "stats": {
+      "health": 2.222,
+      "speed": 0.8,
+      "regen": 1
+    },
+    "sprite": {
+      "w": 10,
+      "h": 10,
+      "x": 165.5,
+      "y": 143.5
+    },
+    "hand": {
+      "type": "container",
+      "label": "hand",
+      "angle": 22.5,
+      "scale": 0.8,
+      "children": [
+        {
+          "label": "warmongers_helmet_hand",
+          "x": 2,
+          "y": -10,
+          "sprite": {
+            "w": 10,
+            "h": 10,
+            "x": 165.5,
+            "y": 143.5
+          }
+        }
+      ]
+    },
+    "equipped": {
+      "type": "container",
+      "label": "head",
+      "children": [
+        {
+          "label": "warmongers_helmet_head",
+          "x": -4.5,
+          "y": -4.5,
+          "sprite": {
+            "w": 9,
+            "h": 9,
+            "x": 168,
+            "y": 126
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": 37,
+    "display": "Buckler",
+    "description": "Defensive...",
+    "type": "hand",
+    "stats": {
+      "regen": 3
+    },
+    "sprite": {
+      "w": 10,
+      "h": 10,
+      "x": 50,
+      "y": 180
+    },
+    "attacks": [
+      {
+        "animation": 3,
+        "reload": 1,
+        "projectiles": [
+          {
+            "id": 1,
+            "angle": 0
+          }
+        ],
+        "bombs": []
+      }
+    ],
+    "hand": {
+      "type": "container",
+      "label": "hand",
+      "angle": -23,
+      "children": [
+        {
+          "label": "longsword_hand",
+          "x": 4,
+          "y": -6,
+          "sprite": {
+            "w": 10,
+            "h": 10,
+            "x": 50,
+            "y": 170
+          }
+        }
+      ]
+    }
+  },
 ]

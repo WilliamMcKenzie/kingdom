@@ -41,7 +41,7 @@ body.game_over > canvas { pointer-events: none; }
 }
 .death_player label { font-size: 16px; padding: 8px; }
 .death_player canvas { width: 110px; height: 110px; }
-.death_content .seperator { flex-shrink: 0; }
+.death_content .seperator { flex-shrink: 0; width: calc(100% + 12px); }
 
 @keyframes death_fade {
     from { opacity: 0; }
