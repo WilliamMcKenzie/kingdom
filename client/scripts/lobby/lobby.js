@@ -19,14 +19,14 @@ async function init_lobby() {
   app.canvas.style.imageRendering = "pixelated"
   app.canvas.style.imageRendering = "crisp-edges"
 
-  await PIXI.Assets.load("/assets/myriad-pro.ttf")
+  await PIXI.Assets.load("assets/myriad-pro.ttf")
   await load_textures()
   await load_background_map()
   await init_preview()
 }
 
 async function load_background_map() {
-  const map_file = await fetch("/assets/sandy.map")
+  const map_file = await fetch("assets/sandy.map")
   const map_bytes = await map_file.arrayBuffer()
   const map = new DataView(map_bytes)
 

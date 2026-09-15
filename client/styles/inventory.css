@@ -11,7 +11,7 @@
 }
 
 .seperator {
-    background-image: url(/assets/ui/seperator.png);
+    background-image: url(../assets/ui/seperator.png);
     background-size: 120px;
     width: calc(100% + 4px);
     height: 20px;
@@ -19,7 +19,7 @@
 
 .inventory_panel {
     background-color: #636363;
-    border-image: url("/assets/ui/border.png") 9 / 9px / 0 round;
+    border-image: url("../assets/ui/border.png") 9 / 9px / 0 round;
     padding: 2px;
     border-width: 12px;
     border-style: solid;
@@ -67,7 +67,7 @@
     pointer-events: none;
     background-color: transparent;
 
-    background-image: url("/assets/assets_upscaled.png");
+    background-image: url("../assets/assets_upscaled.png");
     background-position: 999px -10px;
     background-repeat: no-repeat;
     background-size: 1024px 1024px;
@@ -105,7 +105,7 @@
     pointer-events: none;
 
     background-color: #525252;
-    border-image: url("/assets/ui/slot_border.png") 4 / 4px / 0 round;
+    border-image: url("../assets/ui/slot_border.png") 4 / 4px / 0 round;
     border-width: 4px;
     border-style: solid;
 
@@ -156,7 +156,7 @@
     display: flex;
     box-sizing: content-box;
     justify-content: center;
-    border-image: url("/assets/ui/border.png") 9 / 9px / 0 round;
+    border-image: url("../assets/ui/border.png") 9 / 9px / 0 round;
     border-width: 12px;
     border-style: solid;
 
@@ -170,7 +170,7 @@
     height: 10px;
 
     background-color: #525252;
-    border-image: url("/assets/ui/slot_border.png") 4 / 4px / 0 round;
+    border-image: url("../assets/ui/slot_border.png") 4 / 4px / 0 round;
     border-width: 4px;
     border-style: solid;
 
@@ -190,7 +190,7 @@
     pointer-events: none;
     background-color: transparent;
 
-    background-image: url("/assets/assets_upscaled.png");
+    background-image: url("../assets/assets_upscaled.png");
     background-position: 999px -10px;
     background-repeat: no-repeat;
     background-size: 1024px 1024px;

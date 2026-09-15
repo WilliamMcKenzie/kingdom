@@ -26,5 +26,5 @@
     }
     requestAnimationFrame(animate)
   }
-  image.src = "/assets/assets.png"
+  image.src = "assets/assets.png"
 })()

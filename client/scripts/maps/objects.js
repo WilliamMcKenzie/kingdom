@@ -5,16 +5,16 @@ let object_data = {}
 let object_map = {}
 
 async function init_objects() {
-    const object_json = await (await fetch("/assets/objects.json")).json()
+    const object_json = await (await fetch("assets/objects.json")).json()
     
     for (const data of object_json) {
         textures[data.id] = await load_asset(data.path)
         object_data[data.id] = data
     }
 
-    // const head = await PIXI.Assets.load('/assets/objects/head.png')
-    // const body = await PIXI.Assets.load('/assets/objects/body.png')
-    // const weapon = await PIXI.Assets.load('/assets/objects/weapon.png')
+    // const head = await PIXI.Assets.load('assets/objects/head.png')
+    // const body = await PIXI.Assets.load('assets/objects/body.png')
+    // const weapon = await PIXI.Assets.load('assets/objects/weapon.png')
 
     // for (let texture of [head,body,weapon]) {
     //     texture.source.scaleMode = "nearest"

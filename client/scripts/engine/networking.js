@@ -416,7 +416,7 @@ async function connect() {
     CONNECTED = false
     if (!leaving && !game_over) {
       const status = document.getElementById("connecting_status")
-      if (status) status.innerHTML = 'Connection closed. <a href="/" style="color:inherit">Return to lobby</a>'
+      if (status) status.innerHTML = 'Connection closed. <a href="index.html" style="color:inherit">Return to lobby</a>'
     }
   }
 

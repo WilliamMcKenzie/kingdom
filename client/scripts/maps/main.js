@@ -11,7 +11,7 @@ async function init() {
     app.canvas.style.imageRendering = "pixelated"
     app.stage.scale.set(32)
     await load_tiles()
-    const sheet = new PIXI.Spritesheet(await PIXI.Assets.load("/assets/assets.png"), spritesheet_data)
+    const sheet = new PIXI.Spritesheet(await PIXI.Assets.load("assets/assets.png"), spritesheet_data)
     await sheet.parse()
     sheet.textureSource.source.scaleMode = "nearest"
     textures = sheet.textures

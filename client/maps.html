@@ -21,7 +21,7 @@
                 min-width: 8rem;
 
                 background-color: #636363;
-                border-image: url("/assets/ui/border.png") 9 / 9px / 0 round;
+                border-image: url("assets/ui/border.png") 9 / 9px / 0 round;
                 padding: 6px;
                 border-width: 12px;
                 border-style: solid;
@@ -42,7 +42,7 @@
                 min-width: 8rem;
 
                 background-color: #636363;
-                border-image: url("/assets/ui/border.png") 9 / 9px / 0 round;
+                border-image: url("assets/ui/border.png") 9 / 9px / 0 round;
                 padding: 6px;
                 border-width: 12px;
                 border-style: solid;
@@ -73,7 +73,7 @@
             .icon {
                 width: 8px;
                 height: 8px;
-                background-image: url('/assets/assets.png');
+                background-image: url('assets/assets.png');
                 background-repeat: no-repeat;
                 background-size: 512px 512px;
             }
@@ -87,22 +87,22 @@
         <table class="panel tools">
             <tr>
                 <td>
-                    <button title="1 tile brush" onclick="select_tool('brush_1', this)" class="tool selected_tool" style="background-image: url(/assets/ui/brush_1.png);"></button>
+                    <button title="1 tile brush" onclick="select_tool('brush_1', this)" class="tool selected_tool" style="background-image: url(assets/ui/brush_1.png);"></button>
                 </td>
             </tr>
              <tr>
                 <td>
-                    <button title="2 tile brush" onclick="select_tool('brush_2', this)" class="tool" style="background-image: url(/assets/ui/brush_2.png);"></button>
+                    <button title="2 tile brush" onclick="select_tool('brush_2', this)" class="tool" style="background-image: url(assets/ui/brush_2.png);"></button>
                 </td>
             </tr>
              <tr>
                 <td>
-                    <button title="3 tile brush" onclick="select_tool('brush_3', this)" class="tool" style="background-image: url(/assets/ui/brush_3.png);"></button>
+                    <button title="3 tile brush" onclick="select_tool('brush_3', this)" class="tool" style="background-image: url(assets/ui/brush_3.png);"></button>
                 </td>
             </tr>
             <tr>
                 <td>
-                    <button title="Pan" onclick="select_tool('move', this)" class="tool" style="background-image: url(/assets/ui/move.png);"></button>
+                    <button title="Pan" onclick="select_tool('move', this)" class="tool" style="background-image: url(assets/ui/move.png);"></button>
                 </td>
             </tr>
         </table>
@@ -117,14 +117,14 @@
             </button>
         </div>
 
-        <script src="/scripts/pkgs/pixi.js"></script>
-        <script src="/scripts/data.js"></script>
-        <script src="/scripts/maps/main.js"></script>
-        <script src="/scripts/graphics/load_textures.js"></script>
-        <script src="/scripts/graphics/tiles.js"></script>
-        <script src="/scripts/maps/draw.js"></script>
-        <script src="/scripts/maps/export.js"></script>
-        <script src="/scripts/maps/import.js"></script>
+        <script src="scripts/pkgs/pixi.js"></script>
+        <script src="scripts/data.js"></script>
+        <script src="scripts/maps/main.js"></script>
+        <script src="scripts/graphics/load_textures.js"></script>
+        <script src="scripts/graphics/tiles.js"></script>
+        <script src="scripts/maps/draw.js"></script>
+        <script src="scripts/maps/export.js"></script>
+        <script src="scripts/maps/import.js"></script>
         <script>
             let selected_tool = 'brush_1'
             function select_tool(tool, element) {

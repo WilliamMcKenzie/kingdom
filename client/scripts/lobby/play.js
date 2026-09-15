@@ -16,7 +16,7 @@ async function play(event) {
     sessionStorage.setItem("kingdom.player_name", name)
     sessionStorage.setItem("kingdom.server", servers.value)
     sessionStorage.setItem("kingdom.character_id", account.guest ? "0" : account.data.characters[0].id)
-    location.href = "/game.html"
+    location.href = "game.html"
   } catch (failure) {
     error.textContent = failure.message
     error.classList.remove("hidden")

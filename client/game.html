@@ -1,7 +1,7 @@
 <html>
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, interactive-widget=overlays-content">
-        <script src="/scripts/lobby/account.js"></script>
+        <script src="scripts/lobby/account.js"></script>
         <title>kingdomcrushers.io</title>
         <link rel="stylesheet" href="https://use.typekit.net/jbe5uxg.css" />
         <style>
@@ -21,7 +21,7 @@
                 display: flex;
                 box-sizing: content-box;
                 justify-content: center;
-                border-image: url("/assets/ui/health_border.png") 9 / 9px / 0
+                border-image: url("assets/ui/health_border.png") 9 / 9px / 0
                     round;
                 border-width: 12px;
                 border-style: solid;
@@ -29,7 +29,7 @@
 
             .progress {
                 height: 100%;
-                border-image: url("/assets/ui/health_border.png") 9 / 9px / 0
+                border-image: url("assets/ui/health_border.png") 9 / 9px / 0
                     round;
                 border-width: 12px;
                 border-style: solid;
@@ -144,7 +144,7 @@
                 color: #636363;
                 background-color: white;
                 background-clip: padding-box;
-                border-image: url("/assets/ui/chat_bubble.png") 9 / 12px / 0 round;
+                border-image: url("assets/ui/chat_bubble.png") 9 / 12px / 0 round;
                 border-width: 12px;
                 border-style: solid;
 
@@ -166,7 +166,7 @@
     </head>
     <body style="margin: 0">
         <div id="connecting_screen" role="status"><span id="connecting_status">Connecting...</span></div>
-        <script src="/scripts/loading/water.js"></script>
+        <script src="scripts/loading/water.js"></script>
         <div class="top_right column">
             <span id="controls_tooltip" class="tooltip">[E] to open backpack</span>
         </div>
@@ -202,7 +202,7 @@
                     Do you want to exit?
                     <div class="group">
                         <button type="button" onclick="close_tab()">Cancel</button>
-                        <button type="button" onclick="location.href='/'">Exit</button>
+                        <button type="button" onclick="location.href='index.html'">Exit</button>
                     </div>
                 </div>
             </div>
@@ -224,40 +224,40 @@
                 <canvas id="death_preview" style="margin-bottom: -20px;"></canvas>
                 <label id="death_name" class="error"></label>
                 <div class="seperator" style="margin-top: 6px; margin-bottom: 6px;"></div>
-                <button id="death_continue" class="extrusion" style="width: 100%;" onclick="location.href='/'">Continue</button>
+                <button id="death_continue" class="extrusion" style="width: 100%;" onclick="location.href='index.html'">Continue</button>
             </div>
         </div>
 
-        <script src="/scripts/pkgs/pixi.js"></script>
-        <script src="/scripts/pkgs/filters.js"></script>
+        <script src="scripts/pkgs/pixi.js"></script>
+        <script src="scripts/pkgs/filters.js"></script>
 
-        <script src="/scripts/data.js"></script>
-        <script src="/scripts/engine/networking.js"></script>
+        <script src="scripts/data.js"></script>
+        <script src="scripts/engine/networking.js"></script>
 
-        <script src="/scripts/graphics/app.js"></script>
-        <script src="/scripts/graphics/load_textures.js"></script>
-        <script src="/scripts/graphics/tiles.js"></script>
-        <script src="/scripts/graphics/objects.js"></script>
+        <script src="scripts/graphics/app.js"></script>
+        <script src="scripts/graphics/load_textures.js"></script>
+        <script src="scripts/graphics/tiles.js"></script>
+        <script src="scripts/graphics/objects.js"></script>
 
-        <script src="/scripts/engine/gameplay/bombs.js"></script>
-        <script src="/scripts/engine/gameplay/particles.js"></script>
-        <script src="/scripts/engine/gameplay/characters.js"></script>
-        <script src="/scripts/engine/gameplay/npcs.js"></script>
-        <script src="/scripts/engine/gameplay/loot.js"></script>
-        <script src="/scripts/engine/gameplay/projectiles.js"></script>
+        <script src="scripts/engine/gameplay/bombs.js"></script>
+        <script src="scripts/engine/gameplay/particles.js"></script>
+        <script src="scripts/engine/gameplay/characters.js"></script>
+        <script src="scripts/engine/gameplay/npcs.js"></script>
+        <script src="scripts/engine/gameplay/loot.js"></script>
+        <script src="scripts/engine/gameplay/projectiles.js"></script>
 
-        <script src="/scripts/engine/tabs/tabmanager.js"></script>
+        <script src="scripts/engine/tabs/tabmanager.js"></script>
 
-        <script src="/scripts/engine/inventory/inventory.js"></script>
-        <script src="/scripts/engine/inventory/preview.js"></script>
-        <script src="/scripts/graphics/character_preview.js"></script>
+        <script src="scripts/engine/inventory/inventory.js"></script>
+        <script src="scripts/engine/inventory/preview.js"></script>
+        <script src="scripts/graphics/character_preview.js"></script>
 
-        <script src="/scripts/engine/chat.js"></script>
-        <script src="/scripts/engine/engine.js"></script>
-        <script src="/scripts/engine/player_character.js"></script>
-        <script src="/styles/joystick/joystick.js"></script>
-        <script src="/scripts/mobile/mobile.js"></script>
-        <script src="/scripts/engine/death.js"></script>
+        <script src="scripts/engine/chat.js"></script>
+        <script src="scripts/engine/engine.js"></script>
+        <script src="scripts/engine/player_character.js"></script>
+        <script src="styles/joystick/joystick.js"></script>
+        <script src="scripts/mobile/mobile.js"></script>
+        <script src="scripts/engine/death.js"></script>
 
         <script>
             init()

@@ -20,7 +20,7 @@ async function init() {
   app.canvas.style.imageRendering = "pixelated"
   app.canvas.style.imageRendering = "crisp-edges"
 
-  await PIXI.Assets.load("/assets/myriad-pro.ttf")
+  await PIXI.Assets.load("assets/myriad-pro.ttf")
 
   await load_textures()
   connect()

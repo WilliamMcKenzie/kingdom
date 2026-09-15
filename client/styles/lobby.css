@@ -75,7 +75,7 @@ html {
     right: 0;
     bottom: 0;
     height: 20px;
-    background: url(/assets/ui/seperator.png) repeat-x;
+    background: url(../assets/ui/seperator.png) repeat-x;
     background-size: 120px;
 }
 @media (max-width: 800px), (any-pointer: coarse) {
@@ -171,7 +171,7 @@ html {
     min-width: 8rem;
 
     background-color: #636363;
-    border-image: url("/assets/ui/border.png") 9 / 9px / 0 round;
+    border-image: url("../assets/ui/border.png") 9 / 9px / 0 round;
     padding: 6px;
     border-width: 12px;
     border-style: solid;
@@ -199,7 +199,7 @@ html {
 
 .bordered, .button, .panel {
     background-color: #636363;
-    border-image: url("/assets/ui/border.png") 9 / 9px / 0 round;
+    border-image: url("../assets/ui/border.png") 9 / 9px / 0 round;
     padding: 6px;
 
     border-width: 12px;
@@ -218,7 +218,7 @@ html {
     display: flex;
     justify-content: center;
 
-    border-image: url("/assets/ui/health_border.png") 9 / 9px / 0
+    border-image: url("../assets/ui/health_border.png") 9 / 9px / 0
         round;
     border-width: 12px;
     border-style: solid;
@@ -245,7 +245,7 @@ html {
     justify-content: center;
 
     background-color: #525252;
-    border-image: url("/assets/ui/slot_border.png") 4 / 4px / 0 round;
+    border-image: url("../assets/ui/slot_border.png") 4 / 4px / 0 round;
     border-width: 4px;
     border-style: solid;
     outline: none;
@@ -262,7 +262,7 @@ html {
     display: flex;
     box-sizing: content-box;
     justify-content: center;
-    border-image: url("/assets/ui/text_input_border.png") 9 / 9px / 0
+    border-image: url("../assets/ui/text_input_border.png") 9 / 9px / 0
         round !important;
     border-width: 12px;
     border-style: solid;
