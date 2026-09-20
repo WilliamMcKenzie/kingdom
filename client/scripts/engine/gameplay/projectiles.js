@@ -81,7 +81,7 @@ function projectile_tick(deltaMS) {
           data.hitbox + npc_data[npc.which].hitbox
         ) {
           hit_enemy = true
-          npc.damage(data.damage)
+          npc.damage(data.damage, false)
           break
         }
       }

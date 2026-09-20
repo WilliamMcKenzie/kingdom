@@ -68,9 +68,9 @@ class Character {
     this.nameplate.position.set(this.object.x, this.object.y - 0.8)
   }
 
-  damage(amount = 1) {
+  damage(amount = 1, play_sound = true) {
     this.colorAnimator.animate(0xffb3b3, 300)
-    play_hit(amount)
+    if (play_sound) play_hit(amount)
   }
 
   kill(id) {
