@@ -19,8 +19,9 @@ class Npc {
     this.interpolator.add_npc_frame(x, y)
   }
 
-  damage() {
+  damage(amount = 1) {
     this.colorAnimator.animate(0xffb3b3, 300)
+    play_hit(amount)
   }
 
   kill(id) {

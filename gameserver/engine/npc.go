@@ -52,6 +52,7 @@ func (npc *Npc) Damage(amount float32) {
 	data := new(bytes.Buffer)
 	data.WriteByte(byte(5))
 	binary.Write(data, binary.LittleEndian, npc.entityID)
+	binary.Write(data, binary.LittleEndian, amount)
 	packet := data.Bytes()
 
 	for _, character := range npc.nearby {

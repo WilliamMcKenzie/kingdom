@@ -2,6 +2,24 @@ const OBJECT_SIZE = 8
 const TILE_SIZE = 8
 const app = new PIXI.Application()
 
+let menu_music
+
+function start_menu_music() {
+  menu_music = new Audio("assets/audio/menu_theme.mp3")
+  menu_music.loop = true
+  const try_play = () => {
+    menu_music.play().then(() => {
+      document.removeEventListener("pointerdown", try_play)
+      document.removeEventListener("keydown", try_play)
+    }).catch(() => {})
+  }
+  try_play()
+  document.addEventListener("pointerdown", try_play)
+  document.addEventListener("keydown", try_play)
+}
+
+start_menu_music()
+
 async function init_lobby() {
   await app.init({
     background: "#1f1f1f",

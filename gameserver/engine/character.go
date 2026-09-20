@@ -66,6 +66,7 @@ func (c *Character) Damage(amount float32) {
 		data := new(bytes.Buffer)
 		data.WriteByte(byte(5))
 		binary.Write(data, binary.LittleEndian, c.id)
+		binary.Write(data, binary.LittleEndian, amount)
 		packet := data.Bytes()
 
 		c.sendToNearby(packet, true)

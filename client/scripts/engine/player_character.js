@@ -86,6 +86,7 @@ function attack() {
   } else if (data && data.attacks) {
     character.object.angle = ((character.object.angle % 360) + 360) % 360
     send_attack(character.object.x, character.object.y, character.object.angle)
+    play_fire()
 
     if (attack_cooldown < -0.1) {
       attack_counter = 0

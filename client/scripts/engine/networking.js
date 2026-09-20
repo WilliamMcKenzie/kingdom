@@ -280,15 +280,17 @@ function loot_loot(data) {
 function damaged(data) {
   let offset = 1
   const id = data.getUint32(offset, true)
+  offset += 4
+  const amount = data.byteLength >= offset + 4 ? data.getFloat32(offset, true) : 1
 
   if (characters[id]) {
-    characters[id].damage()
+    characters[id].damage(amount)
   }
   if (npcs[id]) {
-    npcs[id].damage()
+    npcs[id].damage(amount)
   }
   if (id == token) {
-    character.damage()
+    character.damage(amount)
   }
 }
 
