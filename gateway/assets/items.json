@@ -1937,18 +1937,18 @@
     "description": "Defensive...",
     "type": "hand",
     "stats": {
-      "regen": 3
+      "regen": 5
     },
     "sprite": {
       "w": 10,
       "h": 10,
-      "x": 50,
+      "x": 60,
       "y": 180
     },
     "attacks": [
       {
         "animation": 3,
-        "reload": 1,
+        "reload": 3,
         "projectiles": [
           {
             "id": 1,
@@ -1964,17 +1964,17 @@
       "angle": -23,
       "children": [
         {
-          "label": "longsword_hand",
+          "label": "buckler_hand",
           "x": 4,
           "y": -6,
           "sprite": {
             "w": 10,
             "h": 10,
-            "x": 50,
-            "y": 170
+            "x": 60,
+            "y": 180
           }
         }
       ]
     }
-  },
+  }
 ]

@@ -150,6 +150,16 @@
         "loot": 17,
         "chance": 0.1,
         "soulbound": false
+      },
+      {
+        "loot": 37,
+        "chance": 0.2,
+        "soulbound": false
+      },
+      {
+        "loot": 36,
+        "chance": 0.05,
+        "soulbound": false
       }
     ]
   },
@@ -260,6 +270,36 @@
         "loot": 18,
         "chance": 0.8,
         "soulbound": false
+      },
+      {
+        "loot": 28,
+        "chance": 0.05,
+        "soulbound": false
+      },
+      {
+        "loot": 29,
+        "chance": 0.05,
+        "soulbound": false
+      },
+      {
+        "loot": 30,
+        "chance": 0.05,
+        "soulbound": false
+      },
+      {
+        "loot": 31,
+        "chance": 0.05,
+        "soulbound": false
+      },
+      {
+        "loot": 32,
+        "chance": 0.05,
+        "soulbound": false
+      },
+      {
+        "loot": 33,
+        "chance": 0.05,
+        "soulbound": false
       }
     ]
   },
@@ -268,6 +308,11 @@
     "entries": [
       {
         "loot": 21,
+        "chance": 0.1,
+        "soulbound": false
+      },
+      {
+        "loot": 35,
         "chance": 0.1,
         "soulbound": false
       }
@@ -294,6 +339,21 @@
       {
         "loot": 15,
         "chance": 0.5,
+        "soulbound": false
+      },
+      {
+        "loot": 32,
+        "chance": 0.2,
+        "soulbound": false
+      },
+      {
+        "loot": 33,
+        "chance": 0.2,
+        "soulbound": false
+      },
+      {
+        "loot": 34,
+        "chance": 0.1,
         "soulbound": false
       }
     ]
