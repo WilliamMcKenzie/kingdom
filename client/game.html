@@ -57,6 +57,10 @@
                 transform: translate(-50%, 0);
             }
 
+            @media (any-pointer: coarse) {
+                .bottom_container { transform: translate(-50%, 0) scale(0.8); transform-origin: bottom center; }
+            }
+
             .tooltip {
                 background: none;
                 border: none;

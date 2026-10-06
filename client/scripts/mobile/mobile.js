@@ -11,6 +11,7 @@ async function configure_mobile() {
 
   const main_interface = document.getElementById("lobby_main")
   if (!main_interface) {
+    app.stage.scale.set(is_mobile ? 36 : 48)
     if (is_mobile) document.getElementById("controls_tooltip").classList.add("hidden")
     document.getElementById("backpack_button").classList.toggle("hidden", !is_mobile)
     document.getElementById("home_button").classList.toggle("hidden", !is_mobile)

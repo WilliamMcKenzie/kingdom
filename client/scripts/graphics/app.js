@@ -16,7 +16,6 @@ async function init() {
   document.body.appendChild(app.canvas)
   configure_mobile()
 
-  app.stage.scale = 48
   app.canvas.style.imageRendering = "pixelated"
   app.canvas.style.imageRendering = "crisp-edges"
 
